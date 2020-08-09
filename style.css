@@ -1,0 +1,179 @@
+body{
+    background-color: deeppink;
+}
+.face{
+    width: 250px;
+    height: 250px;
+    border: 18px solid white;
+    border-radius: 200px;
+    position: absolute;;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: deeppink;
+}
+#hour-hand{
+    width: 40%;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%; 
+    left: 10%; 
+    transform: translateY(-50%);
+    transform-origin: 100%;
+    transform: rotate(90deg);
+
+}
+#minute-hand{
+    width: 50%;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    transform-origin: 100%;
+    transform: rotate(90deg);
+}
+#second-hand{
+    width: 50%;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    transform-origin: 100%;
+    transform: rotate(90deg);
+}
+#point{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}  
+#one{
+    position: absolute;
+    top:4%;
+    left: 76%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;   
+}
+#two{
+    position: absolute;
+    top:24%;
+    left: 96%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;
+}
+#three{
+    position: absolute;
+    right:-6%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;   
+}
+#four{
+    position: absolute;
+    top:76%;
+    left: 96%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;
+}
+#five{
+    position: absolute;
+    top:96%;
+    left: 76%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink; 
+}
+#six{
+    position: absolute;
+    top:103%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;   
+}
+#seven{
+    position: absolute;
+    top:96%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;
+}
+#eight{
+    position: absolute;
+    top:76%;
+    left:3%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;
+}
+#nine{
+    position: absolute;
+    top:50%;
+    left:-3%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;   
+}
+#ten{
+    position: absolute;
+    top:24%;
+    left:3%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;
+}
+#eleven{
+    position: absolute;
+    top:4%;
+    left: 23%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;
+}
+#twelve{
+    position: absolute;
+    top:-3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 600;
+    color: deeppink;   
+}
+
+
+#digital{
+    background-color: deeppink;
+    border: 15px solid white;
+    width: 250px;
+    height: 80px;
+    position:absolute;
+    top: 20%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 35px;
+    
+}
+#time{
+    padding: 0;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 22px;
+    font-weight: 600;
+    color: white;   
+}
